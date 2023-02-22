@@ -12,7 +12,7 @@ $emailFrom = "pujasaha556@gmail.com"
 $emailSubject = "GitHub Pull Request Summary Report"
 
 # Authenticate with GitHub API
-$token = "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"
+$token = "token"
 Set-GitHubAuthentication -AccessToken $token
 
 # Retrieve pull requests

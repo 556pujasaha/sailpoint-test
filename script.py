@@ -12,7 +12,7 @@ email_from = "556pujasaha@gmail.com"
 email_subject = "GitHub Pull Request Summary Report"
 
 # Authenticate with GitHub API
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer token"}
 url = f"https://api.github.com/repos/{repository_name}/pulls?state=all&since={start_date}&until={end_date}"
 response = requests.get(url, headers=headers)
 pull_requests = response.json()
